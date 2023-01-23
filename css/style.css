@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+}
+
+#container-izq {
+    background-color: greenyellow;
+    width: 50vw;
+}
+
+#container-der {
+    background-color: orange;
+    width: 50vw;
+}
+
+@media (max-width:360px){
+    .container {
+        display: block;
+    }
+
+    html {
+        font-size: calc(30px + 1vw);
+    }
+
+    #container-izq {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #container-der {
+        width: 100%;
+        height: 50vh;
+    }
+}
