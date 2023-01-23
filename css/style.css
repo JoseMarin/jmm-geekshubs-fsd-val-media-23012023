@@ -5,35 +5,42 @@ body {
 .container {
     background-color: red;
     height: 100vh;
+}
+
+#navbar {
+    background-color: green;
+    height: 10vh;
+}
+
+#main {
+    background-color: yellow;
+    height: 60vh;
     display: flex;
 }
 
-#container-izq {
-    background-color: greenyellow;
-    width: 50vw;
-}
-
-#container-der {
+#footer {
     background-color: orange;
-    width: 50vw;
+    height: 30vh;
 }
 
-@media (max-width:360px){
-    .container {
-        display: block;
-    }
-
-    html {
-        font-size: calc(30px + 1vw);
-    }
-
-    #container-izq {
-        width: 100%;
-        height: 50vh;
-    }
-
-    #container-der {
-        width: 100%;
-        height: 50vh;
-    }
+#izq {
+    background-color: violet;
+    width: 20vw;
 }
+
+#der {
+    background-color: blue;
+    width: 80vw;
+}
+/* 
+@media(max-width:360px){
+    #izq {
+        display: none;
+    }
+
+    #der {
+        width: 100%;
+    }
+
+
+} */
